@@ -1,0 +1,50 @@
+ .aside-icon{
+    margin-left: 1400px;
+    font-size: 40px;
+} .icon1{
+    margin-top: 250px;
+}.mosque::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.234);
+    transition: 0.5s;}
+    .mosque:hover::after{
+        width: 100%;
+        height: 100%;
+        opacity: .7;
+        transition: .5s;
+    }.mosque::before {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.234);
+        transition: 0.5s;}
+        .mosque:hover::before{
+            width: 100%;
+            height: 100%;
+            opacity: .7;
+            transition: .5s;
+        }.scroll-img{
+            background-image: url(../images/pngtree-shipping-cargo-via-commercial-industrial-jet-airplane-as-boxed-parcels-against-image_3789682.jpg);
+            width: 100%;
+            height: 600px;
+            background-size: cover;
+        }.card:hover{
+          transform: scale( .8 , .8 );
+          
+        }.card-text .text-body-secondary button:hover{
+            background-color: aqua;
+        }.foot-start , .foot-mid , .foot-end{
+            float: left;
+        }footer{
+             overflow: auto; 
+        }.foot-start p:hover , .foot-mid p:hover , .foot-end p:hover{
+            color: black;
+        }
